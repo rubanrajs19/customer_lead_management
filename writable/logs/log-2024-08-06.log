@@ -1,0 +1,21 @@
+ERROR - 2024-08-06 00:12:09 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\customer-lead-management\app\Database\Migrations\2024-08-05-173949_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\customer-lead-management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\customer-lead-management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\customer-lead-management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\customer-lead-management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\customer-lead-management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\customer-lead-management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-08-06 00:14:13 --> ErrorException: Cannot declare class App\Database\Migrations\CreateCustomersTable, because the name is already in use
+[Method: CLI, Route: migrate]
+in APPPATH\Database\Migrations\2024-08-05-235515_CreateCustomersTable.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-06 00:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

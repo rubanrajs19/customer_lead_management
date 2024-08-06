@@ -79,4 +79,3 @@ Unit Testing
 Unit tests for key functionalities, including customer creation.
 Dashboard
 Basic statistics (e.g., number of leads per status, number of activities per type).
-

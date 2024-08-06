@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="D:\xampp\htdocs\customer-lead-management\phpunit.xml.dist" tests="8" assertions="10" errors="1" failures="0" skipped="0" time="0.500908">
+    <testsuite name="App" tests="8" assertions="10" errors="1" failures="0" skipped="0" time="0.500908">
+      <testsuite name="App\Tests\Models\CustomerModelTest" file="D:\xampp\htdocs\customer-lead-management\tests\Models\CustomerModelTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.167372">
+        <testcase name="testCreateCustomer" file="D:\xampp\htdocs\customer-lead-management\tests\Models\CustomerModelTest.php" line="21" class="App\Tests\Models\CustomerModelTest" classname="App.Tests.Models.CustomerModelTest" assertions="0" time="0.167372">
+          <error type="CodeIgniter\Database\Exceptions\DatabaseException">App\Tests\Models\CustomerModelTest::testCreateCustomer&#13;
+CodeIgniter\Database\Exceptions\DatabaseException: Table 'customer_lead_management.customers' doesn't exist
+&#13;
+D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php:688
+D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php:2340
+D:\xampp\htdocs\customer-lead-management\system\Model.php:394
+D:\xampp\htdocs\customer-lead-management\system\BaseModel.php:840
+D:\xampp\htdocs\customer-lead-management\system\Model.php:802
+D:\xampp\htdocs\customer-lead-management\tests\Models\CustomerModelTest.php:30</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="ExampleDatabaseTest" file="D:\xampp\htdocs\customer-lead-management\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.115296">
+        <testcase name="testModelFindAll" file="D:\xampp\htdocs\customer-lead-management\tests\database\ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="1" time="0.056577"/>
+        <testcase name="testSoftDeleteLeavesRow" file="D:\xampp\htdocs\customer-lead-management\tests\database\ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="2" time="0.058719"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="D:\xampp\htdocs\customer-lead-management\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003861">
+        <testcase name="testSessionSimple" file="D:\xampp\htdocs\customer-lead-management\tests\session\ExampleSessionTest.php" line="11" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.003861"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\AuthTest" file="D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.204013">
+        <testcase name="testUserRegistration" file="D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php" line="9" class="Tests\Unit\AuthTest" classname="Tests.Unit.AuthTest" assertions="1" time="0.138105"/>
+        <testcase name="testUserLogin" file="D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php" line="23" class="Tests\Unit\AuthTest" classname="Tests.Unit.AuthTest" assertions="2" time="0.065909"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="D:\xampp\htdocs\customer-lead-management\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.010365">
+        <testcase name="testIsDefinedAppPath" file="D:\xampp\htdocs\customer-lead-management\tests\unit\HealthTest.php" line="13" class="HealthTest" classname="HealthTest" assertions="1" time="0.001218"/>
+        <testcase name="testBaseUrlHasBeenSet" file="D:\xampp\htdocs\customer-lead-management\tests\unit\HealthTest.php" line="18" class="HealthTest" classname="HealthTest" assertions="2" time="0.009147"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
