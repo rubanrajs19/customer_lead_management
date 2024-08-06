@@ -18,11 +18,11 @@ This is a CodeIgniter 4 web application that includes user authentication and au
 git clone https://github.com/rubanrajs19/customer_lead_management.git
 cd yourrepository
 
-Step 2: Install Dependencies
+### Step 2: Install Dependencies
 bash
 
 composer install
-Step 3: Set Up Environment Variables
+### Step 3: Set Up Environment Variables
 Copy the .env.example file to .env and update the database and email configurations.
 
 bash
@@ -44,7 +44,7 @@ email.SMTPHost = 'smtp.example.com'
 email.SMTPUser = 'your-smtp-username'
 email.SMTPPass = 'your-smtp-password'
 email.SMTPPort = 587
-Step 4: Run Migrations and Seeders
+### Step 4: Run Migrations and Seeders
 Run the following commands to set up the database tables and seed initial data:
 
 bash
@@ -57,7 +57,7 @@ bash
 php spark serve
 The application will be available at http://localhost:8080.
 
-Features
+### Features
 Authentication and Authorization
 User registration and login.
 Admin users can manage all data.
