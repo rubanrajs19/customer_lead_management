@@ -8,7 +8,13 @@ class LeadController extends BaseController
 {
     public function index()
     {
-       
+       $session = session();
+        $role =  $session->get('user');
+        /*print_r($session->get('user'));
+        die;*/
+        if (!isset($role)) { 
+             return redirect()->to('/login');
+        }
         $model = new LeadModel();
         $data['leads'] = $model->findAll();
         return view('leads/index', $data);
@@ -16,6 +22,13 @@ class LeadController extends BaseController
 
     public function create()
     {
+        $session = session();
+        $role =  $session->get('user');
+        /*print_r($session->get('user'));
+        die;*/
+        if (!isset($role)) { 
+             return redirect()->to('/login');
+        }
         $customerModel = new CustomerModel();
         $data['customers'] = $customerModel->findAll();
         return view('leads/create', $data);
@@ -33,6 +46,9 @@ class LeadController extends BaseController
     {
         $model = new LeadModel();
         $data['lead'] = $model->find($id);
+        $customerModel = new CustomerModel();
+        $data['customers'] = $customerModel->findAll();
+        //print_r($data['lead']);die;
         return view('leads/edit', $data);
     }
 

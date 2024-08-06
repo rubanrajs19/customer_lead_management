@@ -34,5 +34,6 @@
             <button type="submit">Add Lead</button>
         </div>
     </form>
+     <a href="logout">Logout</a>
 </body>
 </html>

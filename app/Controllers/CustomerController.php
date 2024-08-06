@@ -7,13 +7,27 @@ class CustomerController extends BaseController
 {
     public function index()
     {
+        $session = session();
+        $role =  $session->get('user');
+        /*print_r($session->get('user'));
+        die;*/
+        if (!isset($role)) { 
+             return redirect()->to('/login');
+        }
         $model = new CustomerModel();
-        $data['customers'] = $model->findAll();
+        $data['customers'] = $model->findAll();        
         return view('customers/index', $data);
     }
 
     public function create()
     {
+        $session = session();
+        $role =  $session->get('user');
+        /*print_r($session->get('user'));
+        die;*/
+        if (!isset($role)) { 
+             return redirect()->to('/login');
+        }
         return view('customers/create');
     }
 
@@ -27,6 +41,13 @@ class CustomerController extends BaseController
 
     public function edit($id)
     {
+        $session = session();
+        $role =  $session->get('user');
+        /*print_r($session->get('user'));
+        die;*/
+        if (!isset($role)) { 
+             return redirect()->to('/login');
+        }
         $model = new CustomerModel();
         $data['customer'] = $model->find($id);
         return view('customers/edit', $data);

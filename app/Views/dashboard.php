@@ -31,6 +31,7 @@
             </div>
             <!-- Add other statistics as needed -->
         </div>
+        <a href="logout">Logout</a>
     </div>
 </body>
 </html>

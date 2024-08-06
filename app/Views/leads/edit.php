@@ -35,5 +35,6 @@
             <button type="submit">Update Lead</button>
         </div>
     </form>
+     <a href="logout">Logout</a>
 </body>
 </html>

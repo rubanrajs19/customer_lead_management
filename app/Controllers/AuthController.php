@@ -8,12 +8,21 @@ class AuthController extends Controller
 {
     public function register()
     {
+       
+        $session = session();
+        $role =  $session->get('user');
+        /*print_r($role['role']);
+        die;*/
+         if ($role) {           
+            return redirect()->to('/dashboard');
+        }
         return view('auth/register');
     }
 
     public function attemptRegister()
     {
         $users = new UserModel();
+
 
         $data = [
             'username' => $this->request->getPost('username'),
@@ -41,7 +50,7 @@ class AuthController extends Controller
 
         if ($user && password_verify($this->request->getPost('password'), $user['password'])) {
             session()->set('user', $user);
-            return redirect()->to('/');
+            return redirect()->to('/dashboard');
         } else {
             return redirect()->back()->with('error', 'Login failed.');
         }
