@@ -1,0 +1,645 @@
+ERROR - 2024-08-05 17:39:06 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 D:\xampp\htdocs\customer-lead-management\system\Test\CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2171): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2092): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(679): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(ExampleDatabaseTest))
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#17 {main}
+ERROR - 2024-08-05 17:39:06 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 D:\xampp\htdocs\customer-lead-management\system\Test\CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2171): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2092): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(679): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(ExampleDatabaseTest))
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#17 {main}
+ERROR - 2024-08-05 17:39:07 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `db...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php(20): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): Tests\Unit\AuthTest->testUserRegistration()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(Tests\Unit\AuthTest))
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#17 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#18 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#19 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#20 {main}
+ERROR - 2024-08-05 17:39:07 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): Tests\Unit\AuthTest->testUserLogin()
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(Tests\Unit\AuthTest))
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#17 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#18 {main}
+ERROR - 2024-08-05 17:51:24 --> mysqli_sql_exception: Table 'customer_lead_management.users' doesn't exist in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\customer-lead-management\app\Controllers\AuthController.php(25): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\customer-lead-management\system\CodeIgniter.php(933): App\Controllers\AuthController->attemptRegister()
+#10 D:\xampp\htdocs\customer-lead-management\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 D:\xampp\htdocs\customer-lead-management\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\customer-lead-management\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\customer-lead-management\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\xampp\htdocs\customer-lead-management\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-08-05 17:51:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'customer_lead_management.users' doesn't exist
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (:username:, :email:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 17:51:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'customer_lead_management.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (\'test\', \'test@gmail.com\', \'$2y$10$FO1dsJylIlclHwP5RIJpxOynjobSKs.7P3lLcEuoE0/s4v5N2X.q2\', \'user\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (\'test\', \'test@gmail.com\', \'$2y$10$FO1dsJylIlclHwP5RIJpxOynjobSKs.7P3lLcEuoE0/s4v5N2X.q2\', \'user\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (:username:, :email:, :password:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 17:51:24 --> [Caused by] mysqli_sql_exception: Table 'customer_lead_management.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (\'test\', \'test@gmail.com\', \'$2y$10$FO1dsJylIlclHwP5RIJpxOynjobSKs.7P3lLcEuoE0/s4v5N2X.q2\', \'user\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (\'test\', \'test@gmail.com\', \'$2y$10$FO1dsJylIlclHwP5RIJpxOynjobSKs.7P3lLcEuoE0/s4v5N2X.q2\', \'user\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (\'test\', \'test@gmail.com\', \'$2y$10$FO1dsJylIlclHwP5RIJpxOynjobSKs.7P3lLcEuoE0/s4v5N2X.q2\', \'user\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `email`, `password`, `role`) VALUES (:username:, :email:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AuthController.php(25): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 17:58:47 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads/create]
+in APPPATH\Controllers\LeadController.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 17:58:55 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads/create]
+in APPPATH\Controllers\LeadController.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 17:59:17 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads/create]
+in APPPATH\Controllers\LeadController.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 17:59:28 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads/create]
+in APPPATH\Controllers\LeadController.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:00:39 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads]
+in APPPATH\Controllers\LeadController.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:01:26 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads]
+in APPPATH\Controllers\LeadController.php on line 68.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:02:10 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: leads]
+in APPPATH\Controllers\LeadController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:02:11 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: leads]
+in APPPATH\Controllers\LeadController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:05:22 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: leads]
+in APPPATH\Controllers\LeadController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:05:38 --> ErrorException: Cannot redeclare App\Controllers\LeadController::store()
+[Method: GET, Route: leads]
+in APPPATH\Controllers\LeadController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 18:06:07 --> CodeIgniter\Shield\Exceptions\SecurityException: Config\Security::$csrfProtection is set to 'cookie'. Same-site attackers may bypass the CSRF protection. Please set it to 'session'.
+[Method: GET, Route: leads]
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 103.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(91): CodeIgniter\Shield\Authentication\Authenticators\Session->checkSecurityConfig()
+ 2 VENDORPATH\codeigniter4\shield\src\Authentication\Authentication.php(67): CodeIgniter\Shield\Authentication\Authenticators\Session->__construct(Object(CodeIgniter\Shield\Models\UserModel))
+ 3 VENDORPATH\codeigniter4\shield\src\Auth.php(95): CodeIgniter\Shield\Authentication\Authentication->factory('session')
+ 4 VENDORPATH\codeigniter4\shield\src\Collectors\Auth.php(68): CodeIgniter\Shield\Auth->getAuthenticator()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\BaseCollector.php(227): CodeIgniter\Shield\Collectors\Auth->getTitleDetails()
+ 6 SYSTEMPATH\Debug\Toolbar.php(96): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+ 7 SYSTEMPATH\Debug\Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1722881166.964983, 0.0472, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH\Filters\DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 9 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+10 SYSTEMPATH\Filters\Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+11 SYSTEMPATH\CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+12 SYSTEMPATH\CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 18:08:13 --> Error: Call to undefined function CodeIgniter\Shield\Authentication\Authenticators\setting()
+[Method: GET, Route: leads]
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 685.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(703): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 2 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(390): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+ 3 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(374): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+ 4 VENDORPATH\codeigniter4\shield\src\Auth.php(191): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+ 5 VENDORPATH\codeigniter4\shield\src\Collectors\Auth.php(76): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+ 6 SYSTEMPATH\Debug\Toolbar\Collectors\BaseCollector.php(228): CodeIgniter\Shield\Collectors\Auth->display()
+ 7 SYSTEMPATH\Debug\Toolbar.php(96): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+ 8 SYSTEMPATH\Debug\Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1722881293.666175, 0.0428, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 9 SYSTEMPATH\Filters\DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+10 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+11 SYSTEMPATH\Filters\Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+12 SYSTEMPATH\CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+13 SYSTEMPATH\CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-05 18:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 18:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 18:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 18:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-05 23:27:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/index.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(16): view('dashboard/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 23:27:42 --> ErrorException: Undefined variable $leadStatusCounts
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 14.
+ 1 APPPATH\Views\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $leadStatusCounts', 'D:\\xampp\\htdocs\\customer-lead-management\\app\\Views\\dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\customer-lead-management\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(16): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-05 23:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-05 23:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-05 23:36:28 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `db...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\customer-lead-management\tests\Models\CustomerModelTest.php(26): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): App\Tests\Models\CustomerModelTest->testCreateCustomer()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(App\Tests\Models\CustomerModelTest))
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#17 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#18 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#19 {main}
+ERROR - 2024-08-05 23:36:28 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 D:\xampp\htdocs\customer-lead-management\system\Test\CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2171): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2092): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(679): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(ExampleDatabaseTest))
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#17 {main}
+ERROR - 2024-08-05 23:36:28 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 D:\xampp\htdocs\customer-lead-management\system\Test\CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2171): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2092): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(679): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(ExampleDatabaseTest))
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#17 {main}
+ERROR - 2024-08-05 23:36:29 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `db...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php(20): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): Tests\Unit\AuthTest->testUserRegistration()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(Tests\Unit\AuthTest))
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#17 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#18 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#19 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#20 {main}
+ERROR - 2024-08-05 23:36:29 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): Tests\Unit\AuthTest->testUserLogin()
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(Tests\Unit\AuthTest))
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#17 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#18 {main}
+ERROR - 2024-08-05 23:39:50 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `db...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\customer-lead-management\tests\Models\CustomerModelTest.php(26): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): App\Tests\Models\CustomerModelTest->testCreateCustomer()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(App\Tests\Models\CustomerModelTest))
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#17 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#18 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#19 {main}
+ERROR - 2024-08-05 23:39:50 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 D:\xampp\htdocs\customer-lead-management\system\Test\CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2171): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2092): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(679): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(ExampleDatabaseTest))
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#17 {main}
+ERROR - 2024-08-05 23:39:50 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Test\DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 D:\xampp\htdocs\customer-lead-management\system\Test\CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2171): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(2092): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(679): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(ExampleDatabaseTest))
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#16 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#17 {main}
+ERROR - 2024-08-05 23:39:50 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `db...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php(20): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): Tests\Unit\AuthTest->testUserRegistration()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(Tests\Unit\AuthTest))
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#17 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#18 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#19 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#20 {main}
+ERROR - 2024-08-05 23:39:50 --> Error connecting to the database: Error: Class "SQLite3" not found in D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php:93
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\SQLite3\Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\customer-lead-management\tests\unit\AuthTest.php(26): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): Tests\Unit\AuthTest->testUserLogin()
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(Tests\Unit\AuthTest))
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#17 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2024-08-05 23:44:30 --> ErrorException: Constant expression contains invalid operations
+[Method: CLI, Route: migrate]
+in APPPATH\Config\Database.php on line 189.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 23:44:47 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: dashboard]
+in APPPATH\Config\Database.php on line 189.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 23:45:11 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: dashboard]
+in APPPATH\Config\Database.php on line 189.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-05 23:45:13 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: dashboard]
+in APPPATH\Config\Database.php on line 189.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-08-05 23:49:10 --> mysqli_sql_exception: Table 'customer_lead_management.customers' doesn't exist in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cu...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\customer-lead-management\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\customer-lead-management\tests\Models\CustomerModelTest.php(30): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(1188): App\Tests\Models\CustomerModelTest->testCreateCustomer()
+#9 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(687): PHPUnit\Framework\TestCase->runTest()
+#10 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#11 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestCase.php(517): PHPUnit\Framework\TestRunner->run(Object(App\Tests\Models\CustomerModelTest))
+#12 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestCase->run()
+#13 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#14 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\Framework\TestSuite.php(380): PHPUnit\Framework\TestSuite->run()
+#15 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#16 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\src\TextUI\Application.php(202): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#17 D:\xampp\htdocs\customer-lead-management\vendor\phpunit\phpunit\phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#18 D:\xampp\htdocs\customer-lead-management\vendor\bin\phpunit(122): include('D:\\xampp\\htdocs...')
+#19 {main}
+ERROR - 2024-08-05 23:50:04 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\customer-lead-management\app\Database\Migrations\2024-08-05-173949_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\customer-lead-management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\customer-lead-management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\customer-lead-management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\customer-lead-management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\customer-lead-management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\customer-lead-management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-08-05 23:52:36 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\customer-lead-management\app\Database\Migrations\2024-08-05-173949_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\customer-lead-management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\customer-lead-management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\customer-lead-management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\customer-lead-management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\customer-lead-management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\customer-lead-management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-08-05 23:56:04 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\customer-lead-management\app\Database\Migrations\2024-08-05-173949_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 D:\xampp\htdocs\customer-lead-management\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\customer-lead-management\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\customer-lead-management\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\customer-lead-management\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\customer-lead-management\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\customer-lead-management\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\customer-lead-management\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-08-05 23:57:15 --> mysqli_sql_exception: Table 'customer_lead_management.leads' doesn't exist in D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\customer-lead-management\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `status`...', 0)
+#1 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 D:\xampp\htdocs\customer-lead-management\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 D:\xampp\htdocs\customer-lead-management\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 D:\xampp\htdocs\customer-lead-management\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\customer-lead-management\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\customer-lead-management\app\Controllers\DashboardController.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\customer-lead-management\system\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+#8 D:\xampp\htdocs\customer-lead-management\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#9 D:\xampp\htdocs\customer-lead-management\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\customer-lead-management\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\customer-lead-management\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\customer-lead-management\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-08-05 23:57:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'customer_lead_management.leads' doesn't exist
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\DashboardController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 23:57:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'customer_lead_management.leads' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\DashboardController.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-05 23:57:15 --> [Caused by] mysqli_sql_exception: Table 'customer_lead_management.leads' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `status`, COUNT(*) as count
+FROM `leads`
+GROUP BY `status`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DashboardController.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
