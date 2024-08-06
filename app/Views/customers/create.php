@@ -30,6 +30,7 @@
             <button type="submit">Add Customer</button>
         </div>
     </form>
+    <a href="dashboard">dashboard</a>
      <a href="logout">Logout</a>
 </body>
 </html>

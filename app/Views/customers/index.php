@@ -8,6 +8,10 @@
 </head>
 <body>
     <h2>Customers</h2>
+    <!-- <form method="get" action="customers">
+    <input type="text" name="search" placeholder="Search customers" value="">
+    <button type="submit">Search</button>
+    </form> -->
     <a href="<?= base_url('customers/create') ?>">Add Customer</a>
     <table>
         <thead>
@@ -34,6 +38,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+     <a href="dashboard">dashboard</a>
      <a href="logout">Logout</a>
 </body>
 </html>

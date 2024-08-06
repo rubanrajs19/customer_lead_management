@@ -8,6 +8,7 @@
 </head>
 <body>
     <h2>Leads</h2>
+    
     <a href="<?= base_url('leads/create') ?>">Add Lead</a>
     <table>
         <thead>
@@ -32,6 +33,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+    <a href="dashboard">dashboard</a>
      <a href="logout">Logout</a>
 </body>
 </html>

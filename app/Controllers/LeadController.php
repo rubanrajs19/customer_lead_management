@@ -16,7 +16,35 @@ class LeadController extends BaseController
              return redirect()->to('/login');
         }
         $model = new LeadModel();
+
+        $search = $this->request->getGet('search');
+        $status = $this->request->getGet('status');
+
+       /* if ($role == 'admin') {
+            if ($search) {
+                $model->like('status', $search)
+                          ->orLike('customer_id', $search);
+            }
+            if ($status) {
+                $model->where('status', $status);
+            }
+            $data['leads'] = $model->findAll();
+        } else {
+            $model->where('user_id', $user->id);
+            if ($search) {
+                $model->like('status', $search)
+                          ->orLike('customer_id', $search);
+            }
+            if ($status) {
+                $model->where('status', $status);
+            }
+            $data['leads'] = $model->findAll();
+        }*/
+
+    
         $data['leads'] = $model->findAll();
+        /*$data['search'] = $search;
+        $data['status'] = $status;*/
         return view('leads/index', $data);
     }
 

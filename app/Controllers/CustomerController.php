@@ -15,7 +15,17 @@ class CustomerController extends BaseController
              return redirect()->to('/login');
         }
         $model = new CustomerModel();
-        $data['customers'] = $model->findAll();        
+
+        $search = $this->request->getGet('search');        
+        if ($search) {
+            $model->like('name', $search)
+                          ->orLike('email', $search)
+                          ->orLike('phone', $search)
+                          ->orLike('address', $search);
+        }
+
+        $data['customers'] = $model->findAll();  
+        $data['search'] = $search;      
         return view('customers/index', $data);
     }
 
